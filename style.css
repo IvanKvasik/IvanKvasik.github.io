@@ -6,24 +6,26 @@ body,
 .wrapper {
 	height: 100%;
 }
+body{
+	position: relative;
+}
 .content {
-	box-sizing: border-box;
+	/*box-sizing: border-box;*/
 	min-height: 100%;
 	padding-bottom: 90px;
 }
 footer {
 	background-color: black;
 	height: 52px;
-	margin-top: -52px;
+	/*margin-top: -52px;*/
 }
 nav{
 	opacity:90%;
 }
 .footer-text{
-	margin-top: -50px;
+	/*margin-top: -50px;*/
 	color: white;
 }
-
 @media (max-width:965px){
 	body{
 		background-color:#00bfff;
@@ -72,7 +74,7 @@ nav{
 	.nbar-toggler{
 		position:absolute;
 		top: 1.3px;
-		left: 3.7px;
+		left: 3.5px;
 		width: 20px;
 		height: 20px;
 		/*transform: translate(+50%, 0%);*/
