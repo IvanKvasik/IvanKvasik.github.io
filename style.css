@@ -87,6 +87,9 @@ nav{
 	.content_text{
 		width:100%;
 	}
+	.article_text{
+		padding-left:10px;
+	}
 }
 a{
 	float:left;
@@ -147,7 +150,4 @@ a{
 hr{
 	background-color:black;
 	clear: left;
-}
-.article_text{
-	padding-left:10px;
 }
