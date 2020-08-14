@@ -42,7 +42,7 @@ nav{
         height:200px;
     }
 }
-@media (max-width:768px){
+@media (max-width:767px){
 	.article_text{
 		padding-left:10px;
 	}
