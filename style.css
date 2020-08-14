@@ -42,6 +42,11 @@ nav{
         height:200px;
     }
 }
+@media (max-width:768px){
+	.article_text{
+		padding-left:10px;
+	}
+}
 @media (max-width:624px){
 	h2{
 		font-size:20px;
@@ -86,9 +91,6 @@ nav{
 	}
 	.content_text{
 		width:100%;
-	}
-	.article_text{
-		padding-left:10px;
 	}
 }
 a{
