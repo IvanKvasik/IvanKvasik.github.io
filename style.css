@@ -42,11 +42,6 @@ nav{
         height:200px;
     }
 }
-@media (max-width:767px){
-	.article_text{
-		padding-left:10px;
-	}
-}
 @media (max-width:624px){
 	h2{
 		font-size:20px;
@@ -152,4 +147,7 @@ a{
 hr{
 	background-color:black;
 	clear: left;
+}
+.article_text{
+	padding-left:10px;
 }
