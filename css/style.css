@@ -42,7 +42,6 @@ a:hover{
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
 	max-height:98%;
-	padding-right:10px;
 }
 
 .skills:hover{
@@ -75,6 +74,7 @@ footer{
 .footer_contacts{
 	float:right;
 	padding-left:23.5px;
+	padding-right:10px;
 }
 @media(max-width:640px){
 	.title{
