@@ -3,12 +3,6 @@
 	font-family: sans-serif;
 	max-width:100%;
 }
-html{
-	width:100%
-}
-body{
-	width:100%
-}
 .first_block{
 	background-image: url("/img/background.png");
 }
