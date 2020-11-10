@@ -2,6 +2,9 @@
 	margin:0;
 	font-family: sans-serif;
 }
+body{
+	min-height:100vh;
+}
 .first_block{
 	background-image: url("/img/background.png");
 }
