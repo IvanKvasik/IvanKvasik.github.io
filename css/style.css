@@ -2,7 +2,7 @@
 	margin:0;
 	font-family: sans-serif;
 }
-body{
+body, html{
 	min-height:100vh;
 }
 .first_block{
