@@ -25,7 +25,6 @@ a:hover{
 .block{
 	position:relative;
 	background-size: cover;
-	background-attachment:fixed;
 	background-position:center;
 	width:100%;
 	min-height:100vh;
@@ -99,5 +98,10 @@ footer{
 @media(max-width:380px){
 	a{
 		font-size: 20px;
+	}
+}
+@media(min-width:1025){
+	.block{
+		background-attachment:fixed;
 	}
 }
