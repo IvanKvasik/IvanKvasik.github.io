@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>С Новым Годом!</title>
+	<meta charset="UTF-8">
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		canvas{
+			background-color:black;
+		}
+	</style>
+</head>
+<body>
+	<canvas id="canv">Обнови браузер</canvas>
+</body>
+<script>
+var
+canv=document.getElementById("canv");
+ctx=canv.getContext("2d");
+coords=[];
+
+canv.width=innerWidth;
+canv.height=innerHeight;
+
+for(var i=0;i<50;i++){
+	coords.push([Math.random()*canv.width, Math.random()*canv.height]);
+}
+
+function draw(){
+	ctx.clearRect(0, 0, canv.width, canv.height);
+	ctx.fillStyle = "green";
+	ctx.beginPath();
+	ctx.moveTo(canv.width/2, 45);
+	ctx.lineTo(canv.width/2+60, 145);
+	ctx.lineTo(canv.width/2-60, 145);
+	ctx.moveTo(canv.width/2, 100);
+	ctx.lineTo(canv.width/2+70, 200);
+	ctx.lineTo(canv.width/2-70, 200);
+	ctx.moveTo(canv.width/2, 140);
+	ctx.lineTo(canv.width/2+85, 260);
+	ctx.lineTo(canv.width/2-85, 260);
+	ctx.fill();
+	ctx.closePath();
+	ctx.fillStyle = "brown";
+	ctx.fillRect(canv.width/2-20, 260, 40, 60);
+	ctx.fillStyle = "white";
+	for(var i=0;i<50;i++){
+		ctx.beginPath();
+		ctx.arc(coords[i][0], coords[i][1], 10, 0, 2*Math.PI);
+		ctx.fill();
+		ctx.closePath();
+		coords[i][1]+=Math.random()*7+2;
+		if(coords[i][1]>=canv.height){
+			coords[i][1]=0;
+		}
+	}
+}
+setInterval(draw, 50);
+</script>
+</html>
