@@ -32,7 +32,7 @@ a:hover{
 .skills{
 	width:300px;
 	height:465px;
-	background:linear-gradient(to left, #484848, #A9A9A9);
+	background:ef8d32;
 	border-radius: 10px;
 	transition: 1s linear;
 	font-size:30px;
