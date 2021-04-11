@@ -49,9 +49,8 @@ a:hover{
 	width:350px;
 	height:500px;
 }
-.skills ul{
-	float:left;
-	margin-left:0;
+.skills div{
+	text-align:center;
 }
 .title{
 	font-size:30px;
