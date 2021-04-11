@@ -48,19 +48,19 @@ a{
 	background: rgba(0, 0, 0, .5);
 }
 .block1{
-	background-image: url("/img1.jpg");
+	background-image: url("/primewest/img1.jpg");
 }
 .block2{
-	background-image: url("/img2.jpg");
+	background-image: url("/primewest/img2.jpg");
 }
 .block3{
-	background-image: url("/img3.jpg");
+	background-image: url("/primewest/img3.jpg");
 }
 .block4{
-	background-image: url("/img4.jpeg");
+	background-image: url("/primewest/img4.jpeg");
 }
 .block5{
-	background-image: url("/img5.jpg");
+	background-image: url("/primewest/img5.jpg");
 }
 .block-text{
 	position:relative;
