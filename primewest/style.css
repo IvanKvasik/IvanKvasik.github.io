@@ -19,7 +19,7 @@ nav{
 footer{
 	background-color:#1c1427;
 	height:200px;
-	color:#ccffbd;
+	color:#f0eee6;
 }
 .copyright{
 	margin-left:15px;
@@ -69,7 +69,7 @@ a{
 	line-height:100vh;
 	text-align: center;
 	font-size:50px;
-	color:#ccffbd;
+	color:#f0eee6;
 }
 .header-link{
 	text-decoration:none;
