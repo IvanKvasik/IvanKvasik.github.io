@@ -181,7 +181,7 @@ h3{
 	.toggle-button{
 		display:block;
 	}
-        *{
+        .skill, #contacts, .portfolio-1{
                 background-attachment:scroll;
         }
 }
