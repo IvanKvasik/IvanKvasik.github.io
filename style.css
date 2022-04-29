@@ -174,7 +174,7 @@ h3{
 		width:100vw;
 	}
 }
-@media(min-width:769px){
+@media(max-width:769px){
 	.links{
 		display:none;
 	}
