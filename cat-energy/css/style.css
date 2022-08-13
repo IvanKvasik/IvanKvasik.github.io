@@ -386,6 +386,9 @@ footer{
 	flex-direction: column;
 	z-index: 3;
 }
+.mobile-compare{
+	display:none;	
+}
 @media(max-width: 1287px){
 	.main-bg{
 		display: none;
